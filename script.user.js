@@ -4,7 +4,7 @@
 // @description  Dodatek do gry Margonem
 // @downloadURL  https://github.com/IzIdorczyk/Aukcjonerka/raw/main/script.user.js
 // @updateURL    https://github.com/IzIdorczyk/Aukcjonerka/raw/main/script.user.js
-// @version      0.2
+// @version      0.3
 // @match        *://*.margonem.pl/
 // @match        *://*.margonem.com/
 // @icon         https://micc.garmory-cdn.cloud/obrazki/npc/kob/npc42.gif
