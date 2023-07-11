@@ -2,7 +2,7 @@
 // @name         Aukcjonerka
 // @author       IzI
 // @description  Dodatek do gry Margonem
-// @downloadURL  https://github.com/IzIdorczyk/Aukcjonerka/raw/main/script.user.js
+// @downloadURL  https://github.com/IzIdorczyk/Aukcjonerka/raw/master/script.user.js
 // @version      0.5
 // @match        *://*.margonem.pl/
 // @match        *://*.margonem.com/
