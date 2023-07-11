@@ -2,7 +2,7 @@
 // @name         Aukcjonerka
 // @author       IzI
 // @description  Dodatek do gry Margonem
-// @version      0.3
+// @version      0.4
 // @match        *://*.margonem.pl/
 // @match        *://*.margonem.com/
 // @icon         https://micc.garmory-cdn.cloud/obrazki/npc/kob/npc42.gif
@@ -18,11 +18,10 @@
         document.querySelector('.auction-window .cards-header-wrapper .cards-header .card ').click();
         document.querySelector('.auction-search-item .first-column-bar-search .item-name-wrapper input').value = item;
         document.querySelector('.auction-search-item .third-column-bar-search .refresh-button-wrapper .button').click();
-        var str = window.Engine.auctions.getAuctionSearchItems().getFilterString();
+        var str = Engine.auctions.getAuctionSearchItems().getFilterString();
         var n = str.lastIndexOf('|');
         var result = str.substring(n + 1);
-        window._g(`ah&cat=0&filter=||||||0|4|0|1|${result}&sort=3|1`);
-        //ok
+        _g(`ah&cat=0&filter=||||||0|4|0|1|${result}&sort=3|1`);
     }
 
     // struktura HTML
