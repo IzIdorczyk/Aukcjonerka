@@ -22,6 +22,7 @@
         var n = str.lastIndexOf('|');
         var result = str.substring(n + 1);
         window._g(`ah&cat=0&filter=||||||0|4|0|1|${result}&sort=3|1`);
+        //ok
     }
 
     // struktura HTML
