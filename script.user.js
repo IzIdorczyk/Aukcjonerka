@@ -2,12 +2,14 @@
 // @name         Aukcjonerka
 // @author       IzI
 // @description  Dodatek do gry Margonem
-// @version      0.5
+// @version      0.2
 // @match        *://*.margonem.pl/
 // @match        *://*.margonem.com/
 // @icon         https://micc.garmory-cdn.cloud/obrazki/npc/kob/npc42.gif
-// @run-at       document-idle
+// @updateURL    https://github.com/IzIdorczyk/Aukcjonerka/raw/master/script.user.js
+// @downloadURL  https://github.com/IzIdorczyk/Aukcjonerka/raw/master/script.user.js
 // @namespace    https://github.com/IzIdorczyk/Aukcjonerka/raw/master/script.user.js
+// @run-at       document-idle
 // ==/UserScript==
 
 (function() {
